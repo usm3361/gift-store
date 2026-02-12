@@ -337,7 +337,7 @@ body {
 .product-grid {
   display: grid;
   /* בנייד: עמודה אחת. במסך רחב: כמה שנכנס (מינימום 250 פיקסל) */
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px 5%;
 }
